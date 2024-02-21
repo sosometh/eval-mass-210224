@@ -3,6 +3,7 @@ import './App.css'
 import { Horloge } from './components/Horloge'
 import { AddChaussure } from './components/AddChaussure'
 import { Joke } from './components/Joke'
+import { PokeSearch } from './components/PokeSearch'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <Horloge />
       <AddChaussure />
       <Joke />
+      <PokeSearch />
     </div>
   )
 }
